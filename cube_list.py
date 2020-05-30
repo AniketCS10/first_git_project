@@ -1,14 +1,14 @@
-# n = int(input("Enter the number of elements for list:"))
-# a = []
-# b = []
-# sum = 0
-# for i in range(1, n + 1):
-#     el = int(input("Enter element:"))
-#     a.append(el)
-#     sum = el * el * el
-#     b.append(sum)
-# print("list elements",a)
-# print("cube of list elements",b)
+n = int(input("Enter the number of elements for list:"))
+a = []
+b = []
+sum = 0
+for i in range(1, n + 1):
+    el = int(input("Enter element:"))
+    a.append(el)
+    sum = el * el * el
+    b.append(sum)
+print("list elements",a)
+print("cube of list elements",b)
 
 
 # faulty program
